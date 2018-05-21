@@ -1,16 +1,16 @@
 .Header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid ghostwhite;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   margin: auto;
+  padding: 20px;
 }
 
 a {
+  color: lightseagreen;
   text-align: center;
   text-decoration: none;
-  color: lightseagreen;
   width: 20%;
 }
 

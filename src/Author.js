@@ -6,9 +6,9 @@ const Author = (props) => {
   return (
     <div className='author-info'>
       <img src={`public/${props.authImg}`} className='author-image ' />
-      <div className="author-info-text">
-        <h4 className="author-text">{props.authName} </h4>
-        <h4 className="author-text">{props.estTime} read</h4>
+      <div className="author-text">
+        <h4>{props.authName} </h4>
+        <h4>{props.estTime} read</h4>
       </div>
     </div>
   );
