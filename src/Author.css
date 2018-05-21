@@ -1,0 +1,22 @@
+.author-info-text {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+
+.author-info {
+  align-items: center;
+  display: flex;
+}
+
+.author-image {
+  border-radius: 50px;
+  height: 35px;
+  max-width: 35px;
+}
+
+.author-text h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
